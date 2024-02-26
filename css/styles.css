@@ -23,7 +23,7 @@ a {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5
@@ -55,7 +55,9 @@ a {
     color: #404bbf;
 }
 
-.address {}
+.address {
+    font-style: normal
+}
 
 .address-list {}
 
@@ -73,7 +75,7 @@ a {
     color: #404bbf;
 }
 
-.address-link:active {
+.address-link:focus {
     color: #404bbf
 }
 
@@ -103,8 +105,16 @@ a {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
+    cursor: pointer
+}
+
+.hero-button:hover {
+    background-color: #404BBF
+}
+
+.hero-button:focus {
+    background-color: #404BBF
 }
 
 /* End hero */
@@ -146,20 +156,21 @@ a {
 .team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
 }
 
-.team-list {}
+.team-list {
+    background-color: #FFFFFF
+}
 
 .team-item {}
 
 .team-pic {
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    background: #fff;
+    background: #FFFFFF;
 }
 
 .team-subtitle {
