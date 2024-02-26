@@ -85,8 +85,7 @@ a {
 
 .hero {
     background: #2e2f42;
-    width: 1440px;
-    height: 600px;
+
 
 }
 
@@ -169,9 +168,7 @@ a {
 
 .team-item {}
 
-.team-pic {
-    background: #FFFFFF;
-}
+.team-pic {}
 
 .team-subtitle {
     font-weight: 500;
@@ -232,8 +229,7 @@ a {
 /* Start footer */
 .footer {
     background: #2e2f42;
-    width: 1440px;
-    height: 312px;
+
 }
 
 .foot-logo-link {
