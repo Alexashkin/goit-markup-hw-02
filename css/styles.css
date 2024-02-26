@@ -1,7 +1,8 @@
 body {
     font-family: "Roboto", sans-serif;
+    color: #434455;
     background-color: #FFFFFF;
-    color: #434455
+
 }
 
 ul {
@@ -18,9 +19,20 @@ a {
 
 .header-menu {}
 
-.logo-link {}
+.logo-link {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5
+}
 
-.accent {}
+.logo-accent {
+    color: #2e2f42;
+
+}
 
 .menu-list {}
 
@@ -32,6 +44,15 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+
+}
+
+.menu-link:hover {
+    color: #404bbf;
+}
+
+.menu-link:focus {
+    color: #404bbf;
 }
 
 .address {}
@@ -46,6 +67,14 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.address-link:hover {
+    color: #404bbf;
+}
+
+.address-link:active {
+    color: #404bbf
 }
 
 /* End header */
