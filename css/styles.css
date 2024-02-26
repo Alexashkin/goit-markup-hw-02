@@ -236,7 +236,20 @@ a {
     height: 312px;
 }
 
-.logo {}
+.foot-logo-link {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5
+}
+
+.foot-logo-accent {
+    color: #f4f4fd
+}
+
 
 .footer-text {
     font-weight: 400;
